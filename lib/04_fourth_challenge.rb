@@ -4,9 +4,7 @@ def fourth_challenge
       :patriarch => {name: "Lord Montague", age: "53"},
       :matriarch => {name: "Lady Montague", age: "54"},
       :hero => {name: "Romeo", age: "15", status: "alive"},
-      :hero_friends => [
-        friend1 = {age: "17",attitued:"worried",name:"Benvolio"},
-        friend2 = {age: "18",attitued:"hot-headed"}
+      :hero_friends => [{age: "17",attitued:"worried",name:"Benvolio"}, {age: "18",attitued:"hot-headed"}
       ]
    }, 
    :capulet => {
