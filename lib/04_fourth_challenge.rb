@@ -4,15 +4,18 @@ def fourth_challenge
       :patriarch => {name: "Lord Montague", age: "53"},
       :matriarch => {name: "Lady Montague", age: "54"},
       :hero => {name: "Romeo", age: "15", status: "alive"},
-      :hero_friends => [ {age: "17",attitued:"worried",name:"Benvolio"}, {age: "18",attitued:"hot-headed",name: "Mercutio"}
+      :hero_friends => [
+        friend1 = {age: "17",attitued:"worried",name:"Benvolio"},
+        friend2 = {age: "18",attitued:"hot-headed"}
       ]
    }, 
    :capulet => {
       :patriarch => {name: "Lord Capulet", age: "50"},
       :matriarch => {name: "Lady Capulet", age: "51"},
       :heroine => {name: "Juliet", age: "15", status: "alive"},
-      :heroine_friends => [{name:"Steven",age:"30",attitued:"confused"},
-        {name:"Nurse",age:"44",attitued:"worried"}
+      :heroine_friends => [
+        friend1 => {name:"Steven",age:"30",attitued:"confused"},
+        friend2 => {name:"Nurse",age:"44",attitued:"worried"}
       ]
    }
 }
