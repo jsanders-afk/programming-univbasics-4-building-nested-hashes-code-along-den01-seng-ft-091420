@@ -11,9 +11,7 @@ def fourth_challenge
       :patriarch => {name: "Lord Capulet", age: "50"},
       :matriarch => {name: "Lady Capulet", age: "51"},
       :heroine => {name: "Juliet", age: "15", status: "alive"},
-      :heroine_friends => [
-        friend1 => {name:"Steven",age:"30",attitued:"confused"},
-        friend2 => {name:"Nurse",age:"44",attitued:"worried"}
+      :heroine_friends => [{name:"Steven",age:"30",attitued:"confused"}, {name:"Nurse",age:"44",attitued:"worried"}
       ]
    }
 }
